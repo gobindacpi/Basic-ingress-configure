@@ -1,5 +1,5 @@
 # Basic-ingress-configure
----
+~~~
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -19,4 +19,4 @@ spec:
                 port:
                   number: 80
 
----
+~~~
